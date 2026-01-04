@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Button Component - Primary Variant (Light Theme)
+    Variants: primary
+    States: enabled, hovered, focused, pressed, disabled
+    Size: 304dp width x 48dp height (19rem x 3rem)
+    
+    Note: For hovered/focused/pressed states, use state selectors or programmatic changes
+    Disabled state: Apply alpha 0.4 and disable click handling
+-->
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="304dp"
+    android:layout_height="48dp"
+    android:minWidth="304dp"
+    android:minHeight="48dp"
+    android:text="Button"
+    android:textColor="#FFFFFF"
+    android:background="#2371EE"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:fontFamily="@string/font_family_rookery_new"
+    android:textSize="@dimen/typography_row_label_xtra_large_size"
+    android:lineSpacingExtra="0sp"
+    android:letterSpacing="0.1"
+    android:gravity="center"
+    android:allCaps="false"
+    android:stateListAnimator="@null"
+    android:elevation="0dp"
+    android:outlineProvider="none"
+    android:backgroundTint="#2371EE"
+    android:textColorHint="#FFFFFF" />
+

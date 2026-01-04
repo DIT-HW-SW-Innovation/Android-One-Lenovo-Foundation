@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TextField Component (Dark Theme)
+    Stages: enabled, typing, error
+    Size: Auto width x auto height
+    
+    Note:
+    - Background: rgba(250,250,250,0.1) (inputBox)
+    - Border: 1dp solid (changes color based on stage)
+    - Typography: 16sp, Rookery New
+    - Clear button appears in typing/error stages
+    - Error message shown below in error stage
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <!-- Input Container -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1AFFFFFF"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:minHeight="56dp">
+        
+        <!-- Text Input -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Input text"
+            android:textColor="#FAFAFA"
+            android:textColorHint="#99FAFAFA"
+            android:textSize="16sp"
+            android:fontFamily="@string/font_family_rookery_new"
+            android:background="@android:color/transparent"
+            android:padding="0dp"
+            android:minHeight="32dp" />
+        
+        <!-- Clear Button (shown in typing/error stages) -->
+        <ImageButton
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/ic_clear"
+            android:background="@android:color/transparent"
+            android:contentDescription="Clear input"
+            android:visibility="gone" />
+    </FrameLayout>
+    
+    <!-- Error Message (shown in error stage) -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Supporting text"
+        android:textColor="#FF5542"
+        android:textSize="12sp"
+        android:fontFamily="@string/font_family_rookery_new"
+        android:paddingLeft="16dp"
+        android:paddingTop="4dp"
+        android:visibility="gone" />
+</LinearLayout>
+

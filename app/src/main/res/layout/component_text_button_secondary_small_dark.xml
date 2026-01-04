@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    TextButton Component - Secondary Small Variant (Dark Theme)
+    Variants: secondary-small
+    States: enabled, hovered, focused, pressed, disabled
+    Size: Auto width x auto height
+    Padding: 8dp horizontal, 8dp vertical (0.5rem)
+    Typography: 14sp size, 20sp line height
+    
+    Note: Transparent background, light text (#FAFAFA)
+    For hovered/focused/pressed: Background changes to rgba(250,250,250,0.1)
+    Disabled: rgba(83,141,255,0.4) - 40% opacity blue text
+-->
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Button"
+    android:textColor="#FAFAFA"
+    android:background="@android:color/transparent"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:fontFamily="@string/font_family_rookery_new"
+    android:textSize="@dimen/typography_row_label_medium_size"
+    android:lineSpacingExtra="0sp"
+    android:letterSpacing="0"
+    android:gravity="center"
+    android:allCaps="false"
+    android:stateListAnimator="@null"
+    android:elevation="0dp"
+    android:outlineProvider="none"
+    android:backgroundTint="@android:color/transparent"
+    android:textColorHint="#FAFAFA" />
+

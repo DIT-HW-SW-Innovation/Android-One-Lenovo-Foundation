@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    NavItemHorizontal Component - Unselected State (Light Theme)
+    Variants: unselected, unselected-hovered, unselected-pressed
+    Size: Auto width x auto height
+    
+    Note:
+    - Unselected: Transparent background, gray text (#333333)
+    - Icon: 24dp x 24dp, gray color
+    - Typography: 12sp, Rookery New
+    - Hovered: rgba(0,0,0,0.1) background
+    - Pressed: rgba(0,0,0,0.2) background
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:minHeight="40dp">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@android:color/transparent">
+        
+        <!-- Icon -->
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_alarm_inactive"
+            android:tint="#333333"
+            android:layout_marginEnd="8dp" />
+        
+        <!-- Label -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Label"
+            android:textColor="#333333"
+            android:textSize="@dimen/typography_row_label_small_size"
+            android:fontFamily="@string/font_family_rookery_new"
+            android:lineSpacingExtra="0sp" />
+    </LinearLayout>
+</FrameLayout>
+

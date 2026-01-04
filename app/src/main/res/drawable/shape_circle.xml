@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Circular Shape Drawable
+    Used for: Circular backgrounds, buttons, indicators
+    Can be tinted with android:backgroundTint
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#FFFFFF" />
+</shape>
+

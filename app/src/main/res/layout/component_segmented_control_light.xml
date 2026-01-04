@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    SegmentedControl Component (Light Theme)
+    Variants: center-aligned, left-aligned
+    Size: Auto width x auto height
+    
+    Note:
+    - Horizontal tabs with labels
+    - Active tab: Blue text (#2371EE), blue indicator bar at bottom
+    - Inactive tab: Gray text (#666666), no indicator
+    - Typography: 14sp, Rookery New
+    - Indicator bar: 2dp height, full width of tab
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical">
+    
+    <!-- Tab 1 (Active) -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:minHeight="48dp">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tab 1"
+                android:textColor="#2371EE"
+                android:textSize="@dimen/typography_row_label_medium_size"
+                android:fontFamily="@string/font_family_rookery_new"
+                android:lineSpacingExtra="0sp" />
+            
+            <!-- Indicator bar -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#2371EE"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </FrameLayout>
+    
+    <!-- Tab 2 (Inactive) -->
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:minHeight="48dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tab 2"
+            android:textColor="#666666"
+            android:textSize="@dimen/typography_row_label_medium_size"
+            android:fontFamily="@string/font_family_rookery_new"
+            android:lineSpacingExtra="0sp" />
+    </FrameLayout>
+</LinearLayout>
+

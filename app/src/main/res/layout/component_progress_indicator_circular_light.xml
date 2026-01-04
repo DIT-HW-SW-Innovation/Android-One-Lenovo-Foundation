@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ProgressIndicatorCircular Component (Light Theme)
+    Size: 18dp x 18dp (default)
+    Progress: 0-100 (set programmatically)
+    Stroke width: 2dp (0.125rem)
+    
+    Note:
+    - Background circle: #D8D8D8 (progressIndicatorSlider)
+    - Progress circle: #2371EE (primary blue)
+    - Uses SVG/custom view for circular progress
+    - Stroke dash array/offset set programmatically
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="18dp"
+    android:layout_height="18dp"
+    android:minWidth="18dp"
+    android:minHeight="18dp">
+    
+    <!-- Circular progress indicator -->
+    <!-- Note: In Android, use ProgressBar with indeterminate=false and style as circular -->
+    <!-- Or use custom view with Canvas drawing -->
+    <ProgressBar
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:progressDrawable="@drawable/progress_circular"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="50"
+        android:indeterminate="false" />
+</FrameLayout>
+

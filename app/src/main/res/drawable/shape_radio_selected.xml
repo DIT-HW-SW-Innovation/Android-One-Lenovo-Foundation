@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Radio Button Selected Shape
+    Used for: Radio button border (selected state)
+    Size: 20dp x 20dp with 2dp border
+    Border color: #008758 (primary green)
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="2dp"
+        android:color="#008758" />
+</shape>
+

@@ -1,3 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Design System Strings
+    Font families and text constants
+-->
 <resources>
-    <string name="app_name">ZUX_XML</string>
+    <!-- Font Families -->
+    <string name="font_family_rookery_new">Rookery New</string>
+    <string name="font_family_qihei_lenovo">Qihei Lenovo</string>
+    <string name="font_family_roboto">Roboto</string>
+
+    <!-- Typography Font Weights (as strings for reference) -->
+    <string name="font_weight_regular">400</string>
+    <string name="font_weight_medium">500</string>
+    <string name="font_weight_bold">700</string>
 </resources>
+

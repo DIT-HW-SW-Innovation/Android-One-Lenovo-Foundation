@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    RadioButton Component (Dark Theme)
+    States: enabled, hovered, focused, pressed, disabled
+    Size: 48dp x 48dp container, 24px radio button
+    
+    Note: Same as light theme
+    - Unselected: Transparent fill, #888888 border
+    - Selected: Transparent fill, #008758 border, #008758 inner circle
+    - Background ellipse uses rgba(255,255,255,0.1) for dark theme
+    - Disabled: 40% opacity
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:gravity="center">
+    
+    <!-- Background ellipse (40dp) - shown on hovered/focused/pressed -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="#1AFFFFFF"
+        android:visibility="gone" />
+    
+    <!-- Radio button shape (20dp) with border -->
+    <FrameLayout
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:gravity="center">
+        
+        <!-- Radio button circle background/border -->
+        <View
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/shape_radio_unselected" />
+        
+        <!-- Inner circle (shown when selected) -->
+        <View
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/shape_circle"
+            android:backgroundTint="#008758"
+            android:visibility="gone" />
+    </FrameLayout>
+</FrameLayout>
+

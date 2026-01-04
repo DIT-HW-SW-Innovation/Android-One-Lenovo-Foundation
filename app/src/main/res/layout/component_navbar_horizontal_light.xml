@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Navbar Component - Horizontal Variant (Light Theme)
+    Variants: horizontal, horizontal-small, vertical
+    Size: 800dp width (50rem), auto height
+    Padding: 72dp horizontal (4.5rem)
+    
+    Note: Contains multiple NavItemHorizontal components
+    Use include or inflate NavItemHorizontal layouts
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="wrap_content"
+    android:minWidth="600dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingLeft="72dp"
+    android:paddingRight="72dp"
+    android:paddingTop="0dp"
+    android:paddingBottom="0dp">
+    
+    <!-- Nav Items will be added here via include or programmatically -->
+    <!-- Example: <include layout="@layout/component_nav_item_horizontal_selected_light" /> -->
+</LinearLayout>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    ProgressIndicator Component (Light Theme)
+    Size: 100dp width x 3dp height (default)
+    Progress: 0-100 (set programmatically)
+    
+    Note:
+    - Track: #D8D8D8 background (progressIndicatorSlider)
+    - Fill: #2371EE (primary blue)
+    - Border radius: Full (rounded ends)
+    - Height: 3dp (0.1875rem)
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="3dp"
+    android:minHeight="3dp">
+    
+    <!-- Track (background) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#D8D8D8"
+        android:backgroundTint="#D8D8D8" />
+    
+    <!-- Fill (progress) - width set programmatically based on progress percentage -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#2371EE"
+        android:backgroundTint="#2371EE"
+        android:layout_gravity="start" />
+</FrameLayout>
+

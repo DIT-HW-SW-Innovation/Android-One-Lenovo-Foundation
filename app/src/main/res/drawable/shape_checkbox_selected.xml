@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Checkbox Selected Shape
+    Used for: Checkbox background (selected state)
+    Size: 20dp x 20dp
+    Background color: #008758 (primary green)
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#008758" />
+</shape>
+

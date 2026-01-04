@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Design System Dimensions
+    Converted from Vue design system tokens
+    Units converted: 1rem = 16dp, px (font) = sp, px (other) = dp
+-->
+<resources>
+    <!-- Spacing (converted from rem: 1rem = 16dp) -->
+    <dimen name="spacing_none">0dp</dimen>
+    <dimen name="spacing_extra_small">4dp</dimen> <!-- 0.25rem = 4dp -->
+    <dimen name="spacing_small">8dp</dimen> <!-- 0.5rem = 8dp -->
+    <dimen name="spacing_small_medium">12dp</dimen> <!-- 0.75rem = 12dp -->
+    <dimen name="spacing_medium">16dp</dimen> <!-- 1rem = 16dp -->
+    <dimen name="spacing_large">24dp</dimen> <!-- 1.5rem = 24dp -->
+    <dimen name="spacing_extra_large">32dp</dimen> <!-- 2rem = 32dp -->
+    <dimen name="spacing_xx_large">48dp</dimen> <!-- 3rem = 48dp -->
+    <dimen name="spacing_xxx_large">56dp</dimen> <!-- 3.5rem = 56dp -->
+    <dimen name="spacing_xxxx_large">72dp</dimen> <!-- 4.5rem = 72dp -->
+    <dimen name="spacing_xxxxx_large">96dp</dimen> <!-- 6rem = 96dp -->
+
+    <!-- Border Radii (converted from rem: 1rem = 16dp) -->
+    <dimen name="radius_none">0dp</dimen>
+    <dimen name="radius_extra_small">4dp</dimen> <!-- 0.25rem = 4dp -->
+    <dimen name="radius_small">8dp</dimen> <!-- 0.5rem = 8dp -->
+    <dimen name="radius_medium">12dp</dimen> <!-- 0.75rem = 12dp -->
+    <dimen name="radius_large">16dp</dimen> <!-- 1rem = 16dp -->
+    <dimen name="radius_over_large">20dp</dimen> <!-- 1.25rem = 20dp -->
+    <dimen name="radius_extra_large">24dp</dimen> <!-- 1.5rem = 24dp -->
+    <dimen name="radius_full">10000dp</dimen> <!-- 62.5rem = 10000dp (effectively infinite for circles) -->
+
+    <!-- Button Dimensions -->
+    <dimen name="button_min_height">48dp</dimen> <!-- 3rem = 48dp -->
+    <dimen name="button_min_width">96dp</dimen> <!-- 6rem = 96dp -->
+    <dimen name="button_focus_ring_width">2dp</dimen> <!-- 0.125rem = 2dp -->
+
+    <!-- Typography Sizes (converted from px to sp for scalability) -->
+    <!-- Row Label Sizes -->
+    <dimen name="typography_row_label_small_size">12sp</dimen>
+    <dimen name="typography_row_label_small_line_height">16sp</dimen>
+    <dimen name="typography_row_label_medium_size">14sp</dimen>
+    <dimen name="typography_row_label_medium_line_height">20sp</dimen>
+    <dimen name="typography_row_label_large_size">16sp</dimen>
+    <dimen name="typography_row_label_large_line_height">22sp</dimen>
+    <dimen name="typography_row_label_xtra_large_size">18sp</dimen>
+    <dimen name="typography_row_label_xtra_large_line_height">25sp</dimen>
+    <dimen name="typography_row_label_xtra_large_letter_spacing">0.1sp</dimen>
+
+    <!-- Row Body Sizes -->
+    <dimen name="typography_row_body_small_size">12sp</dimen>
+    <dimen name="typography_row_body_small_line_height">16sp</dimen>
+    <dimen name="typography_row_body_medium_size">14sp</dimen>
+    <dimen name="typography_row_body_medium_line_height">20sp</dimen>
+    <dimen name="typography_row_body_large_size">16sp</dimen>
+    <dimen name="typography_row_body_large_line_height">24sp</dimen>
+
+    <!-- Row Title Sizes -->
+    <dimen name="typography_row_title_small_size">18sp</dimen>
+    <dimen name="typography_row_title_small_line_height">24sp</dimen>
+    <dimen name="typography_row_title_medium_size">20sp</dimen>
+    <dimen name="typography_row_title_medium_line_height">26sp</dimen>
+    <dimen name="typography_row_title_large_size">22sp</dimen>
+    <dimen name="typography_row_title_large_line_height">28sp</dimen>
+
+    <!-- Row Headline Sizes -->
+    <dimen name="typography_row_headline_small_size">24sp</dimen>
+    <dimen name="typography_row_headline_small_line_height">32sp</dimen>
+    <dimen name="typography_row_headline_medium_size">28sp</dimen>
+    <dimen name="typography_row_headline_medium_line_height">36sp</dimen>
+    <dimen name="typography_row_headline_large_size">30sp</dimen>
+    <dimen name="typography_row_headline_large_line_height">38sp</dimen>
+    <dimen name="typography_row_headline_xtra_large_size">32sp</dimen>
+    <dimen name="typography_row_headline_xtra_large_line_height">40sp</dimen>
+    <dimen name="typography_row_headline_double_xtra_large_size">40sp</dimen>
+    <dimen name="typography_row_headline_double_xtra_large_line_height">48sp</dimen>
+</resources>
+

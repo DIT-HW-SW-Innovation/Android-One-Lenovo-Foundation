@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Button Component - Primary Small Variant (Dark Theme)
+    Variants: primary-small
+    States: enabled, hovered, focused, pressed, disabled
+    Size: Auto width x 32dp height (2rem)
+    Padding: 16dp horizontal, 16dp vertical (1rem)
+    
+    Note: Uses #538DFF (same as light theme)
+    For hovered: rgba(0,0,0,0.1), focused/pressed: rgba(0,0,0,0.2) - black overlays
+    Disabled state: Apply alpha 0.4
+-->
+<Button
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="32dp"
+    android:minHeight="32dp"
+    android:text="Button"
+    android:textColor="#FFFFFF"
+    android:background="#538DFF"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:fontFamily="@string/font_family_rookery_new"
+    android:textSize="@dimen/typography_row_label_small_size"
+    android:lineSpacingExtra="0sp"
+    android:letterSpacing="0"
+    android:gravity="center"
+    android:allCaps="false"
+    android:stateListAnimator="@null"
+    android:elevation="0dp"
+    android:outlineProvider="none"
+    android:backgroundTint="#538DFF"
+    android:textColorHint="#FFFFFF" />
+

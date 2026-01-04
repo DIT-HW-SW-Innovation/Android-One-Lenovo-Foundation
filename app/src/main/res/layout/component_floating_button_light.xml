@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    FloatingButton Component (Light Theme)
+    States: enabled, hovered, focused, pressed, disabled
+    Size: 92dp x 92dp container, 56dp circle button
+    
+    Note:
+    - Enabled: Yellow background (#E0B400)
+    - Hovered: #BF9900
+    - Focused/Pressed: #B08D00
+    - Disabled: 40% opacity
+    - Contains pen icon (32dp)
+    - Circular shape with padding
+-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="92dp"
+    android:layout_height="92dp"
+    android:gravity="center"
+    android:padding="9dp">
+    
+    <Button
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="#E0B400"
+        android:contentDescription="Create new content"
+        android:elevation="4dp"
+        android:stateListAnimator="@null">
+        
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_pen_new"
+            android:tint="#FFFFFF"
+            android:layout_gravity="center" />
+    </Button>
+</FrameLayout>
+

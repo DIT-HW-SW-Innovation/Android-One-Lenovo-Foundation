@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Circular Progress Indicator
+    Used for: Circular progress bars
+    Note: This is a basic implementation. For full functionality,
+    you may need a custom view or use ProgressBar with circular style
+-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background circle -->
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thickness="2dp"
+            android:useLevel="false">
+            <solid android:color="#D8D8D8" />
+        </shape>
+    </item>
+    <!-- Progress circle -->
+    <item>
+        <shape
+            android:shape="ring"
+            android:innerRadiusRatio="3"
+            android:thickness="2dp"
+            android:useLevel="true">
+            <solid android:color="#2371EE" />
+        </shape>
+    </item>
+</layer-list>
+

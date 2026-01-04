@@ -1,5 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    Design System Colors - Light Theme
+    Converted from Vue design system tokens
+    All colors are semantic colors used by UI components
+-->
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Colors -->
+    <color name="color_primary_blue">#2371EE</color>
+    <color name="color_primary_red">#EE0004</color>
+    <color name="color_primary_orange">#ED6909</color>
+    <color name="color_primary_yellow">#E0B400</color>
+    <color name="color_primary_green">#008758</color>
+    <color name="color_primary_teal">#008390</color>
+    <color name="color_primary_purple">#B740D0</color>
+    <color name="color_primary_grey">#767676</color>
+    <color name="color_primary_pink">#E5195F</color>
+
+    <!-- Fill Colors -->
+    <color name="color_fill_radio_button_checkbox">#888888</color>
+    <color name="color_fill_toast">#555555</color>
+    <color name="color_fill_progress_indicator_slider">#D8D8D8</color>
+    <color name="color_fill_tips">#F7F7F7</color>
+    <color name="color_fill_outline_button">#FFFFFF</color>
+    <color name="color_fill_page_control">#999999</color>
+    <color name="color_fill_hovered">#1A000000</color>
+    <color name="color_fill_focused_pressed">#33000000</color>
+    <color name="color_fill_inverse_on_surface">#FFFFFF</color>
+    <color name="color_fill_avatar">#E2E2E2</color>
+    <color name="color_fill_scrollbar">#26000000</color>
+    <color name="color_fill_inactive_discrete_slider_dot">#555555</color>
+    <color name="color_fill_active_discrete_slider_dot">#FAFAFA</color>
+
+    <!-- Text Colors -->
+    <color name="color_text_primary">#191919</color>
+    <color name="color_text_secondary">#333333</color>
+    <color name="color_text_tertiary">#666666</color>
+    <color name="color_text_quaternary">#999999</color>
+    <color name="color_text_quinary">#CCCCCC</color>
+    <color name="color_text_button">#333333</color>
+    <color name="color_text_seven_toast">#FFFFFF</color>
+
+    <!-- Background Colors -->
+    <color name="color_background_page">#F7F7F7</color>
+    <color name="color_background_dialog">#FFFFFF</color>
+    <color name="color_background_card">#FFFFFF</color>
+    <color name="color_background_top_app_bar">#F7F7F7</color>
+    <color name="color_background_input_box">#EDEDED</color>
+    <color name="color_background_application_menu">#FAFAFA</color>
+    <color name="color_background_text_select">#FFFFFF</color>
+    <color name="color_background_widget_card">#F7F7F7</color>
+
+    <!-- Separator Colors -->
+    <color name="color_separator_divider_line">#E9E9E9</color>
+    <color name="color_separator_outlined_button">#4D4D4D</color>
+    <color name="color_separator_application_menu_outline">#1A000000</color>
+    <color name="color_separator_outline">#1A000000</color>
+
+    <!-- Outline Icon Colors -->
+    <color name="color_outline_icon_primary">#191919</color>
+    <color name="color_outline_icon_secondary">#333333</color>
+    <color name="color_outline_icon_tertiary">#666666</color>
+    <color name="color_outline_icon_quaternary">#999999</color>
+    <color name="color_outline_icon_quinary">#CCCCCC</color>
+
+    <!-- Overlay Colors -->
+    <color name="color_overlay_dim_layer">#99000000</color>
+
+    <!-- Effects Colors -->
+    <color name="color_effect_focus_ring">#A6FFFFFF</color>
+
+    <!-- Scrim Colors -->
+    <color name="color_scrim_light_background_blur">#40FFFFFF</color>
+    <color name="color_scrim_dark_surface">#4F4F4F</color>
+    <color name="color_scrim_light_surface">#99FAFAFA</color>
+    <color name="color_scrim_light_surface_container_high">#4DFAFAFA</color>
+    <color name="color_scrim_light_surface_container">#80FAFAFA</color>
+
+    <!-- Other Colors -->
+    <color name="color_other_status_bar">#191919</color>
+    <color name="color_other_rectangular_placeholder">#D8D8D8</color>
+    <color name="color_other_navbar">#4F4F4F</color>
+    <color name="color_other_window_button_background">#E6E6E6</color>
+    <color name="color_other_window_button">#B3000000</color>
+    <color name="color_other_window_button_outline">#4DFAFAFA</color>
 </resources>
+
